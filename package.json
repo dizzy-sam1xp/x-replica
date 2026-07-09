@@ -1,0 +1,17 @@
+{
+  "name": "x-feed-replica",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive X-style feed replica served with Express and styled with Tailwind CSS.",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/styles.css -o ./public/styles.css --minify",
+    "dev": "npm run build:css && node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

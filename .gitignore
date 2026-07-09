@@ -1,0 +1,10 @@
+node_modules/
+.codex/
+.agents/
+work/
+outputs/
+
+*.log
+.env
+.DS_Store
+Thumbs.db
